@@ -1,0 +1,10 @@
+ul li{
+    /* list-style: circle; */
+    /* list-style: none; 불릿 제거 */
+    list-style-image: url("/day02/images/dot.png");
+}
+
+ol li{
+        /* list-style: upper-alpha; */
+        list-style: lower-roman;
+}
