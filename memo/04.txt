@@ -10,3 +10,13 @@ dir - 파일이나 폴더 목록 보기
 display :
 
 display : flex
+
+*github
+git clone 원격 저장소
+두번째 데이터 가져오기
+git pull
+
+한줄
+input type "text"
+여러줄
+textarea
