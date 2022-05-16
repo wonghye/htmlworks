@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse; 
+            /* 표 줄 1줄로 병합 */
+        }
+        td,th{
+            border: 1px solid #000;
+        }
+        thead{
+            background: #eee;
+        }
+        .c1{
+            background: #ccc;
+        }
+        /* .c2{
+            background: #ccc;
+        } */
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="c1">
+            <col class="c2">
+        </colgroup>
+
+        <caption>웹 퍼블리싱 점수</caption>
+        <thead>
+            <tr>
+                <th>교과목</th>
+                <th>점수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>HTML</th>
+                <td rowspan="2">93</td>
+            </tr>
+            <tr>
+                <th>CSS</th>
+                <!-- <td>93</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>평균</th>
+                <td>92.5</td>
+            </tr>
+            <tr>
+                <th colspan="2">비고 (셀 합치기)</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

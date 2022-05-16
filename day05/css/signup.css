@@ -15,13 +15,16 @@ ul li{
 ul li label{
     width: 120px;
     float: left;
+    text-align: right;
+    margin-right: 10px;
+    color: aquamarine;
 }
 ul li input{
-    width: 250px;
+    width: 200px;
     height: 30px;
 }
 
-select{
+select, #umail{
     width: 120px;
     height: 30px;
 }

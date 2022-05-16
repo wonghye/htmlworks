@@ -1,0 +1,15 @@
+06
+
+<map name="맵이름">
+  <area shape="rect">
+  <area shape="circle">
+ </map>
+
+<img usemap="#맵이름">
+
+<input >
+title="말풍선"
+
+disabled ="비활성화" 
+
+readonly="읽기 전용"
