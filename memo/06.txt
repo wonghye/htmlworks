@@ -13,3 +13,32 @@ title="말풍선"
 disabled ="비활성화" 
 
 readonly="읽기 전용"
+
+배치:포지션
+float - left, right
+clear - left, right
+position- absolute , relative , 
+
+z-index -높은 순으로 요소 쌓임
+
+overflow 정리
+박스의 내용이 더 길때 어떻게 보일지를 결정
+overflow: visible , hidden , auto
+
+html4
+- div id= header div /
+div id= section  div/
+div id= footer div
+
+html5
+- header / section / footer
+
+ifram - 내,외부 html 파일
+
+플젝 - dream-jeju /css , images
+-사이트맵-
+메인페이지 (인덱스)
+제주여행
+레드향소개 
+Q&A(질문,답변)
+About Me (자기소개)
