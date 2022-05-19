@@ -1,0 +1,7 @@
+vw, vh -반응형 웹단위
+viewport width
+
+px -고정크기 16px
+% - 브라우저 상대크기
+em - 1.5em : 부모 요소에 대한 상대 크기
+rem (root em) :html크기에 대한 절대 크기
