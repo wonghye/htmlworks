@@ -1,0 +1,28 @@
+07일차
+
+프로젝트(웹,앱) 서비스(배포)
+배포? 서비스 할 자료를 서버 컴퓨터로 이동하는것
+
+로컬컴 -> 서버 컴
+파일전송 프로그램 app, webapp
+
+사이트에 서비스 - 웹애플리케이션
+aws, heroku 
+애플리케이션 - 파일질라, 알디스크
+
+=== wonghye.dothome.co.kr/  , wonghye ===
+
+seletor 선택자
+태그, id , class
+다양한 선택자
+
+h1 > p - 자식 선택자
+h1 + p - 인접 형제 선택자
+
+[속성] 선택자
+ex) input [type ="submit"] ...
+
+a:active - 순서 가장 마지막에..
+
+선택자 순위
+!important > inline(style="@@") > id > class

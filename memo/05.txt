@@ -1,0 +1,26 @@
+day05
+
+객체 (개채) 배치
+1 display : inline, block, inline-block, none, flex
+ 일률적으로 행 로우 ,열 컬럼 에 배치하는 경우
+
+2 float : left, right - 왼,오 로 배치하는 경우 = 속성유지
+  clear: both - 해제
+
+3 position : absolute - 완전 독립, relative, fixed
+
+구글 웹폰트 - 
+html : <link> 연결 
+css : @import - 맨 윗줄에 작성
+
+input type "number" , 범위"range"
+input type "date"  - 날짜 년,월,일
+
+button tag
+type= submit => js 연동
+onclick
+
+포지셔닝 
+- float:왼,오  
+position - absoulte/relative/fixed
+
