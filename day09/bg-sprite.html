@@ -6,21 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Img Sprite</title>
     <style>
-        li{ list-style: none; margin: 15px;}
+        li{
+            /* display: inline; */
+             list-style: none; margin: 30px;}
         .lnb li a{
+            /* display: inline-block; */
             display: block;
-            padding-left: 30px;
+            padding-left: 60px;
             text-decoration: none;
             color: #000;
-            font: 25px Times;
+            font: 40px Times;
             background: url(./images/bg_sprite.png) no-repeat;
             /* 원래 크기의 절반으로 줄임 */
-            background-size: 26px 176px;
+            /* background-size: 26px 176px; */
         }
         .lnb li:nth-child(1) a{background-position: 0 0;}
-        .lnb li:nth-child(2) a{background-position: 0 -50px;}
-        .lnb li:nth-child(3) a{background-position: 0 -100px;}
-        .lnb li:nth-child(4) a{background-position: 0 -150px;}
+        .lnb li:nth-child(2) a{background-position: 0 -100px;}
+        .lnb li:nth-child(3) a{background-position: 0 -200px;}
+        .lnb li:nth-child(4) a{background-position: 0 -300px;}
     </style>
 </head>
 <body>

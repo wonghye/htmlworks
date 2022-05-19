@@ -8,3 +8,14 @@ px -고정크기 16px
 % - 브라우저 상대크기
 em - 1.5em : 부모 요소에 대한 상대 크기
 rem (root em) :html크기에 대한 절대 크기
+
+background의 속성값
+그라디언트 (gradient)
+선형 - linear : 
+원형 - radial
+
+background : linear-gradient(방향, rgb)
+background : radial-gradient(색상영역, rgb)
+
+자바 - 프레임워크 : 스프링, 스프링부트
+      - 전자정부 프레임워크
