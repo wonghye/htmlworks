@@ -17,5 +17,7 @@ background의 속성값
 background : linear-gradient(방향, rgb)
 background : radial-gradient(색상영역, rgb)
 
+&copy; = ⓒ
+
 자바 - 프레임워크 : 스프링, 스프링부트
       - 전자정부 프레임워크
