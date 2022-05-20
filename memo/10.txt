@@ -1,0 +1,17 @@
+day 10
+
+개발 - 테스트 -(서비스) 배포 - 유지,보수
+
+플렉스 박스 연습 게임
+https://flexboxfroggy.com/#ko
+
+(::) 가상 선택자 - 내용 추가할 때 씀
+ex) a:: after{ content: 'new' 
+
+
+@keyframes 애니메이션 이름{
+ from{}
+ to{}  
+}
+
+ㄴ---------css--------
