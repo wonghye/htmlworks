@@ -45,6 +45,16 @@ footer{height: 100px; margin: 0 auto; border-top: 2px solid #222}
 .foot_area .bottomMenu li a{display:block; padding: 0 15px;}
 .foot_area .bottomMenu li:last-child{border: none;}
 
+/* 태블릿기준 */
+@media all and (max-width : 1065px) and (min-width:801px) {
+    .box_inner{ width : 100%}
+
+    header .header_area h1{ padding-left: 20px;}
+    .header_cont{ float: left; width: 60%;}
+    .header_cont .gnb li{ padding: 0 20px;}
+}
+
+
 /* 모바일 기준 */
 @media all and (max-width:800px) {
     .box_inner {width:100%;}
