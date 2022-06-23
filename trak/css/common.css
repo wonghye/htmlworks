@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0; font-family:'Poppins'; }
+
+.box_inner {width:1050px; margin:0 auto;}
+
+input[type=text] {-webkit-appearance:none; box-sizing:border-box; display:inline-block; height:35px; padding:0 10px; border:1px solid #ccc; background-color:#fff;  line-height:normal; font-size:15px;}
+input[type=number] {-webkit-appearance:none; box-sizing:border-box; display:inline-block; height:35px; padding:0 10px; border:1px solid #ccc; background-color:#fff;  line-height:normal; font-size:15px;}
+input[type=password] {-webkit-appearance:none; box-sizing:border-box; display:inline-block; height:35px; padding:0 10px; border:1px solid #ccc; background-color:#fff;  line-height:normal; font-size:15px;}
+input[type=tel] {-webkit-appearance:none; box-sizing:border-box; display:inline-block; height:35px; padding:0 10px; border:1px solid #ccc; background-color:#fff;  line-height:normal; font-size:15px;}
+input[type=email] {-webkit-appearance:none; box-sizing:border-box; display:inline-block; height:35px; padding:0 10px; border:1px solid #ccc; background-color:#fff;  line-height:normal; font-size:15px;}
+textarea {-webkit-appearance:none; box-sizing:border-box; padding:10px; border:1px solid #ccc; font-size:15px;}
+select {-webkit-appearance:none; height:30px; padding:0 5px; box-sizing:border-box; border:1px solid #ccc;}
+
+li a{list-style: none;}
+
+/* header부분 */
+header{
+    width: 100%; height: 101px;
+    background: #FD6A80; 
+    color: white; font-weight: bolder;
+}
+header a{text-decoration: none; color: white; }
+header h1{ float: left; padding: 35px ; }
+header .header_cont .util li{ float: right; list-style: none; padding-right: 20px; line-height: 101px; } 
+header .header_cont .util li a{ display: inline-block;}  
+
+/* 섹션부분 */
+section, #main{ margin: 0 auto; height: 600px; padding-top: 30px;
+}
+section h2{ margin-left: 20px;}
+table {height:400px;  margin-left:auto; margin-right:auto;}
+table.col1, table.col2{ font-size: medium; line-height: 2;}
+table.col1{font-weight: bold;}
+table td{ border-top:1px solid #444;}
+
+#btn{ margin: 0 auto;  display:block; text-align: center;}
+button{ width: 70px; height: 40px; border-radius: 10px; color: white; background: #AAF885; border: #AAF885;
+    font-family: 'Poppins'; font-size: medium; text-shadow: 1px 1px black;
+    margin-right: 50px;}
+button:nth-last-child(1){background: #FD6A80;}
+button:hover{ cursor: pointer;}
+
+/* 푸터영역 */
+footer {border-top:1px solid #eee; width: 100%; float:left; position: relative;}
+footer .foot_list{ display: flex;  padding-top:25px; list-style: none; position: absolute;}
+footer .foot_list li{margin-right: 20px;}
+/* footer .foot_list li:after {content:" "; } */
+footer .foot_list li a{font-weight:bold; font-size:15px; text-decoration: none; color: black;}
+
+
+
+/* 모바일 */
+@media all and (max-width:800px) {
+
+
+}
