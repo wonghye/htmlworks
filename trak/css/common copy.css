@@ -20,8 +20,8 @@ header{
 }
 header a{text-decoration: none; color: white; }
 header h1{ float: left; padding: 35px ; }
-header h1 a{display: block; width: 89px; height: 32px; text-indent: -9999px; overflow: hidden;  background: url(/trak/img/logo.png) no-repeat; }
-header .header_cont .util li{ float: left; list-style: none; padding-right: 20px; line-height: 101px; } 
+header .header_area h1 a{display: block; width: 270px; height: 71px;  background: url(/trak/img/logo.jpg) no-repeat; }
+header .header_cont .util li{ float: right; list-style: none; padding-right: 20px; line-height: 101px; } 
 header .header_cont .util li a{ display: inline-block;}  
 
 /* 섹션부분 */
